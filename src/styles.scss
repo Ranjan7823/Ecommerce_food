@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+ 
+ 
+footer {
+    background-color: #ef4f5f !important;
+    color: #ffff; 
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+}
+.card-food {
+    box-shadow: 6px 11px 14px rgb(227 48 11 / 10%);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-food:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+
+}
+.restaurant-card {
+    background-color: #ef4f5f !important;
+    color: #ffff;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
